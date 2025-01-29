@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Memento mori</title>
+</head>
+<body>
+    <div class="form-container">
+        <input type="text" id="name" placeholder="Vaše ime" required>
+        <div class="date-selectors">
+            <select id="day" required></select>
+            <select id="month" required></select>
+            <select id="year" required></select>
+        </div>
+        <button id="submit">Izračunaj</button>
+    </div>
+    <div class="message" id="message"></div>
+    <div class="grid" id="grid">
+        <!-- 924 squares will be dynamically generated here -->
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

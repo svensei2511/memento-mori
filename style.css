@@ -1,0 +1,110 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#explanation {
+    text-align: center;
+    margin-bottom: 30px; /* Povećali smo razmak ispod objašnjenja */
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px; /* Povećali smo razmak ispod polja za unos */
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+}
+
+.form-container input, .form-container select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.date-selectors {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.date-selectors select {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 100px;
+    height: 40px;
+}
+
+.date-selectors select {
+    overflow-y: auto;
+}
+
+.date-selectors select option {
+    padding: 5px;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-bottom: 40px; /* Povećali smo razmak ispod poruke */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(38, 10px);
+    gap: 2px;
+    justify-content: center;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+}
